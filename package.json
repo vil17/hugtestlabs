@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/vil17/hugtestlabs#readme",
   "devDependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "jest": "^23.6.0"
   },
   "dependencies": {
     "supertest": "^3.3.0"
