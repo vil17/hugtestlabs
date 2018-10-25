@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "node app.js",
-    "clean": "rm -rf node_modules"
+    "clean": "rm -rf node_modules",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

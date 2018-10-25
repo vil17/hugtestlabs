@@ -1,6 +1,7 @@
 // src/api.test.js
 const request = require("supertest");
 const api = require("./api");
+
 describe("GET /greeting/:name endpoint", () => {
 it("should return a 200 OK status code", async () => {
 const res = await request(api).get("/greeting/_");
