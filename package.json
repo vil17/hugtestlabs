@@ -1,0 +1,21 @@
+{
+  "name": "hugtestlabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "clean": "rm -rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vil17/hugtestlabs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vil17/hugtestlabs/issues"
+  },
+  "homepage": "https://github.com/vil17/hugtestlabs#readme"
+}
