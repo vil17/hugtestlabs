@@ -2,12 +2,13 @@
   "name": "hugtestlabs",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node app.js",
+    "start": "node server.js",
     "clean": "rm -rf node_modules",
-    "build": "webpack"
+    "build": "webpack",
+    "wds": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,16 @@
   },
   "homepage": "https://github.com/vil17/hugtestlabs#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
     "express": "^4.16.4",
-    "jest": "^23.6.0"
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
     "supertest": "^3.3.0"
   }
 }
